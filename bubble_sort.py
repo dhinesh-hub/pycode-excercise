@@ -5,14 +5,10 @@ def bubble_sort(num_list):
                temp = num_list[j]
                num_list[j] = num_list[j+1]
                num_list[j+1] = temp
+        print "pass {}".format(i + 1)        
+        print num_list        
     return num_list  
 
 num_list = [9,6,1,4,8]
 print bubble_sort(num_list)
-
-  
-         
-                          
-
-
 
