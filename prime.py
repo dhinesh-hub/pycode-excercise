@@ -5,5 +5,5 @@ def prime(num):
             break
     return "prime"
 
-print prime(2)
+print prime(7)
 

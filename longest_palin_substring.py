@@ -5,7 +5,8 @@ def substring(s):
     max_len = 0
     for i in range(0,len(s)):
         for j in range(0,i):
-    	    chunk = s[j:i+1] # i+1 becasuse [0,3] will return 0,1,2 elements without 3 
+    	    chunk = s[j:i+1] # i+1 becasuse [0,3] will return 0,1,2 elements without 3
+            print chunk 
             if chunk == chunk[::-1]: #reverse string shortcut
 	       result.append(chunk)	
     for s in result:
@@ -17,6 +18,6 @@ def substring(s):
             max_str = s
 
     return max_str
-print substring('abaabaa')
+print substring('abbadabcef')
 
 
