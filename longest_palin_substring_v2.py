@@ -1,7 +1,7 @@
 def long_palin_sub(str1):
     lst1 = []
     palindrome = []
-    for i in range(1,len(str1) + 1):
+    for i in range(1,len(str1)+1):
         for j in range(len(str1) + 1 - i):
             #print i
             #print j
